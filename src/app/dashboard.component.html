@@ -1,0 +1,11 @@
+<p>Your Dashboard</p>
+<div>
+  <button (click)="onFinishedLoading()">
+    Finish Loading
+  </button>
+</div>
+<div>
+  <input type="text" [(ngModel)]="loadState">
+</div>
+<p>{{loadState}}</p>
+<!-- <p [textContent]="loadState"></p> -->
